@@ -7,7 +7,7 @@ def solution(es):
         for i in range(esLen):
             if i + ran <= esLen:
                 answer.add(sum(es[i:i+ran]))
-            if i + ran > esLen-1:
+            elif i + ran > esLen-1:
                 comp = ran - len(es[i:])
                 answer.add(sum(es[:comp] + es[i:]))
         
