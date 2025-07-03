@@ -1,10 +1,16 @@
 class Solution:
     def kthCharacter(self, k: int) -> str:
-        word = "a"
-        while len(word) < k:
-            next_chars = ''.join(
-                chr(((ord(c) - 96) % 26) + 97) if c != 'z' else 'a'
-                for c in word
-            )
-            word += next_chars
-        return word[k - 1]
+        string = "a"
+
+        while len(string) <= k:
+            temp = string
+
+            for char in string:
+                if char == 'z':
+                    temp += 'a'
+                else:
+                    temp += chr(ord(char) + 1)
+            
+            string = temp      
+
+        return string[k - 1]
