@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/taiyoung12/LeetCode/tree/master/0049-group-anagrams) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/taiyoung12/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/taiyoung12/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Hash Table
 |  |
 | ------- |
@@ -14,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/taiyoung12/LeetCode/tree/master/0049-group-anagrams) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/taiyoung12/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Sorting
 |  |
 | ------- |
@@ -26,4 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/taiyoung12/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Depth-First Search
+|  |
+| ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/taiyoung12/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+## Trie
+|  |
+| ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/taiyoung12/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 <!---LeetCode Topics End-->
