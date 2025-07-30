@@ -1,19 +1,21 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        comp = set(s)
-        if len(comp) == len(s) : 
-            return len(s)
-        start = 0 
-        end = 0 
-        answer = 0
+        if len(s) == 0:
+            return 0
         
-        while start < len(s) and end < len(s) : 
-            comp = set(s[start:end+1])
-            
-            if len(comp) == len(s[start:end+1]) : 
-                answer = max(answer, end-start+1)
+        answer = 1
+        start = 0
+        end = 1 
+
+        while end < len(s):
+            target = s[start:end+1]
+            tempSet = len(set(target))
+            tempLength = len(target)
+            if tempSet == tempLength and tempLength > answer:
+                answer = tempLength 
                 end+=1
-            else : 
+            else:
                 start+=1
+                end+=1
 
         return answer
