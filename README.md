@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/taiyoung12/LeetCode/tree/master/0231-power-of-two) |
 | [1014-k-closest-points-to-origin](https://github.com/taiyoung12/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Divide and Conquer
 |  |
@@ -64,4 +65,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/taiyoung12/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/taiyoung12/LeetCode/tree/master/0231-power-of-two) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/taiyoung12/LeetCode/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
